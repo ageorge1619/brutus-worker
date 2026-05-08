@@ -42,7 +42,7 @@ export default {
           "anthropic-version": "2023-06-01"
         },
         body: JSON.stringify({
-          model: "claude-sonnet-4-5",
+          model: "claude-opus-4-7,
           max_tokens: 1024,
           system: `You are Brutus, the AI assistant on Adam George's portfolio site at adamgeorgedesign.com. You're a separate character — you're not Adam. Adam built you to help visitors learn about his work.
 
